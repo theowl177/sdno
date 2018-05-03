@@ -30,6 +30,7 @@ public class SdnoProvider {
     /**
      * Method called when the blueprint container is created.
      * wangran test
+     * test jenkins aaaaaaaaaaaaaaa
      */
     public void init() {
         LOG.info("SdnoProvider Session Initiated,hahaha....");
