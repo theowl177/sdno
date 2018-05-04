@@ -11,6 +11,8 @@ import org.opendaylight.yangtools.yang.common.RpcResultBuilder;
 
 public class SdnoProviderImpl implements SdnoService {
 
+    /**aaaaaaaaaaaaaaaa*/
+
     @Override
     public Future<RpcResult<HelloWorldOutput>> helloWorld(HelloWorldInput input) {
         HelloWorldOutputBuilder helloWorldOutputBuilder = new HelloWorldOutputBuilder();
