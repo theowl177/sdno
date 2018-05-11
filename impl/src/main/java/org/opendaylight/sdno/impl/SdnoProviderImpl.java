@@ -16,7 +16,7 @@ public class SdnoProviderImpl implements SdnoService {
     @Override
     public Future<RpcResult<HelloWorldOutput>> helloWorld(HelloWorldInput input) {
         HelloWorldOutputBuilder helloWorldOutputBuilder = new HelloWorldOutputBuilder();
-        helloWorldOutputBuilder.setGreating("Welcome to ODL: " +input.getName());
+        helloWorldOutputBuilder.setGreating("I am lengxiong, hello, Welcome to ODL: " +input.getName());
 
         return RpcResultBuilder.success(helloWorldOutputBuilder.build()).buildFuture();
     }
