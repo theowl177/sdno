@@ -11,12 +11,12 @@ import org.opendaylight.yangtools.yang.common.RpcResultBuilder;
 
 public class SdnoProviderImpl implements SdnoService {
 
-    /**aaaaaaaaaaaaaaaa  bbbbb ODL Cailei Cailei*/
+    /**aaaaaaaaaaaaaaaa  bbbbb ODL wwwwwwwwwwwwwwrrrrrrrrrrrr*/
 
     @Override
     public Future<RpcResult<HelloWorldOutput>> helloWorld(HelloWorldInput input) {
         HelloWorldOutputBuilder helloWorldOutputBuilder = new HelloWorldOutputBuilder();
-        helloWorldOutputBuilder.setGreating("I'm Cailei. ahahahahaha Welcome to ODL: " +input.getName());
+        helloWorldOutputBuilder.setGreating("I'm wwwwwrrrrrr Welcome to ODL: " +input.getName());
 
         return RpcResultBuilder.success(helloWorldOutputBuilder.build()).buildFuture();
     }
